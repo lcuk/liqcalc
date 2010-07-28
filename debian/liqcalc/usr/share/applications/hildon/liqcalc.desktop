@@ -1,0 +1,13 @@
+[Desktop Entry]
+Version=1.0
+Encoding=UTF-8
+Name=liqcalc
+Exec=/usr/bin/liqcalc-run.sh
+Type=Application
+Icon = liqcalc
+x-Window-Icon = liqcalc
+x-Window-Icon-Dimmed = liqcalc
+StartupWMClass=liqcalc
+X-Osso-Service=org.maemo.liqcalc
+X-Osso-Type=application/x-executable
+StartupNotify=false

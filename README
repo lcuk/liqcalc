@@ -1,0 +1,14 @@
+liqcalc
+
+(C) 2010 Gary Birkett
+GPL v2 (with option of v3, LGPL is under consideration)
+
+liqcalc is a simple solar powered calculator written in liqbase
+it aims to replicate a simple desktop calculator
+
+
+It is incomplete at this phase and is merely a skeleton
+
+this calculator is solar powered
+if you cover the panel the display dims :)
+
