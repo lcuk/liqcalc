@@ -7,7 +7,7 @@ Standards-Version: 3.7.2
 
 Package: liqcalc
 Architecture: any
-Depends: ${shlibs:Depends}, ${misc:Depends} , libliqbase1
+Depends: ${shlibs:Depends}, ${misc:Depends} , libliqbase1 (>= 0.3.61)
 Description: A simple solar powered calculator written in liqbase.
  liqcalc is a simple solar powered calculator written in liqbase.
  it aims to replicate a simple desktop calculator.

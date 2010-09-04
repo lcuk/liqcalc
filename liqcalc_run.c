@@ -554,7 +554,7 @@ liqcell *liqcalc_run_create()
 	liqcell_propseti(  title, "textaligny", 0 );
 	liqcell_child_append(  self, title);
 	//############################# calclcd:textbox
-	liqcell *calclcd = liqcell_quickcreatevis("calclcd", "textbox", 94, 64, 330, 88);
+	liqcell *calclcd = liqcell_quickcreatevis("calclcd", "label", 94, 64, 330, 88);
 	liqcell_setfont(	calclcd, liqfont_cache_getttf("/usr/share/fonts/nokia/nosnb.ttf", (60), 0) );
 	liqcell_setcaption(calclcd, "12345678" );
 	liqcell_propsets(  calclcd, "textcolor", "rgb(0,0,0)" );
@@ -847,7 +847,7 @@ liqcell *liqcalc_run_create()
 	liqcell_handleradd_withcontext(self, "filter",		 (void*)liqcalc_run_filter ,self);
 	liqcell_handleradd_withcontext(self, "refresh",		(void*)liqcalc_run_refresh ,self);
 	liqcell_handleradd_withcontext(self, "shown",		  (void*)liqcalc_run_shown ,self);
-	//liqcell_handleradd_withcontext(self, "resize",	  (void*)liqcalc_run_resize ,self);
+	liqcell_handleradd_withcontext(self, "resize",	  (void*)liqcalc_run_resize ,self);
 	//liqcell_handleradd_withcontext(self, "keypress",	(void*)liqcalc_run_keypress,self );
 	//liqcell_handleradd_withcontext(self, "keyrelease", (void*)liqcalc_run_keyrelease ,self);
 	//liqcell_handleradd_withcontext(self, "mouse",		(void*)liqcalc_run_mouse,self );
